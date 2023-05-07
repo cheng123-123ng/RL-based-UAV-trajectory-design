@@ -24,5 +24,7 @@
 2.找到保存的文件夹，文件夹中含有result文件，打开终端输入 tensorboard --logdir=xxx（文件夹的地址，直接在文件夹中复制即可），再打开使用浏览器打开http://localhost:6006/ ，搜索reward即可看到所有和reward相关的图片。比如episode_reward_mean ![episode_reward_mean](https://github.com/cheng123-123ng/RL-based-UAV-trajectory-design/blob/main/picture/episode_reward.jpg)。
 
 3.在render中找到step1_trajectroy，将要加载的模型地址和轨迹要保存的地址指定好就可以了。![trajectory](https://github.com/cheng123-123ng/RL-based-UAV-trajectory-design/blob/main/picture/trajectory_step2.gif)
+##  2.多智能体强化学习：
+  与上文类似不再赘述。
 
   
