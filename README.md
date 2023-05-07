@@ -20,5 +20,9 @@
   3.render中有两类代码，trajectory获得agent与env交互的轨迹，和render利用轨迹绘制动态图。
 # 使用流程：
 ##  1.单智能体强化学习：
+1.在main_step1中设置好参数，特别是envconfig，然后运行。
+2.找到保存的文件夹，文件夹中含有result文件，打开终端输入 tensorboard --logdir=xxx（文件夹的地址，直接在文件夹中复制即可），再打开使用浏览器打开http://localhost:6006/ ，搜索reward即可看到所有和reward相关的图片。比如episode_reward_mean ![episode_reward_mean](https://github.com/cheng123-123ng/RL-based-UAV-trajectory-design/blob/main/picture/episode_reward.jpg)。
+
+3.在render中找到step1_trajectroy，将要加载的模型地址和轨迹要保存的地址指定好就可以了。![trajectory](https://github.com/cheng123-123ng/RL-based-UAV-trajectory-design/blob/main/picture/trajectory_step2.gif)
 
   
