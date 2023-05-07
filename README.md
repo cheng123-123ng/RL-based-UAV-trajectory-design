@@ -26,5 +26,7 @@
 3.在render中找到step1_trajectroy，将要加载的模型地址和轨迹要保存的地址指定好就可以了。![trajectory](https://github.com/cheng123-123ng/RL-based-UAV-trajectory-design/blob/main/picture/trajectory_step2.gif)
 ##  2.多智能体强化学习：
   与上文类似不再赘述。
+![episode_reward_mean](https://github.com/cheng123-123ng/RL-based-UAV-trajectory-design/blob/main/picture/episode_reward2.jpg)。
+![trajectory](https://github.com/cheng123-123ng/RL-based-UAV-trajectory-design/blob/main/picture/trajectory_2.gif)
 
   
