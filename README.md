@@ -1,7 +1,7 @@
 # 本项目为我的本科毕业论文《基于强化学习的无人机集群控制和安全通信》的对应代码
   本项目是基于RLlib完成的，使用了PPO算法解决了单智能体的问题，QMIX/VDN算法解决了多智能体问题，本项目的主要贡献为建立了一个自己的第三方无人机与无人车通信的环境。有两个环境（分别为单智能体与多智能体环境）都在env目录下面。
   在学习使用RLlib时，发现可以参考的中文资料非常非常少，而大多数英文博客也都写于几年前失去了参考意义，只有比较难懂的官方文档。于是将所遇到并解决的问题都放在代码中供后续研究者使用。
-  本文档的英文版为(https://github.com/cheng123-123ng/RL-based-UAV-trajectory-design/blob/main/readme_in_english.md)
+  本文档的[英文版](https://github.com/cheng123-123ng/RL-based-UAV-trajectory-design/blob/main/readme_in_english.md)
 # 本文包括：
   1.如何使用RLLib来训练（train的方式和tune的方式），其中包括了如何保留训练中最优的2个（或n个）模型，并指定他们的位置。
   
